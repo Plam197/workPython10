@@ -1,0 +1,10 @@
+f_iot = open('iot.txt', 'r', encoding='utf-8')
+
+data = f_iot.readline()
+print(data)
+data = f_iot.readline()
+print(data)
+data = f_iot.readline()
+print(data)
+data = f_iot.readline()
+print(data)
